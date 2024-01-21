@@ -1,0 +1,8 @@
+C:\Users\mbzra\source\repos\RevShell\bin\Debug\RevShell.exe.config
+C:\Users\mbzra\source\repos\RevShell\bin\Debug\RevShell.exe
+C:\Users\mbzra\source\repos\RevShell\bin\Debug\RevShell.pdb
+C:\Users\mbzra\source\repos\RevShell\obj\Debug\RevShell.csproj.AssemblyReference.cache
+C:\Users\mbzra\source\repos\RevShell\obj\Debug\RevShell.csproj.SuggestedBindingRedirects.cache
+C:\Users\mbzra\source\repos\RevShell\obj\Debug\RevShell.csproj.CoreCompileInputs.cache
+C:\Users\mbzra\source\repos\RevShell\obj\Debug\RevShell.exe
+C:\Users\mbzra\source\repos\RevShell\obj\Debug\RevShell.pdb
