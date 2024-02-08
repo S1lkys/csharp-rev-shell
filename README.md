@@ -1,3 +1,6 @@
+This Executes a semi-interactive reverse shell. Its nothing special and shoudl be obfuscated before using it.
+Use at your own risk. Im not responsible for shit you're doing :) 
+
 * created a Python script that acts as a netcat server and listens for incoming connections from clients.
 * implemented a simple XOR encryption and decryption algorithm in the Python script to secure the network communications between the server and the client.
 * created a C# reverse shell that connects to the Python server and establishes a command shell over the network.
